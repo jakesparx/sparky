@@ -22,6 +22,8 @@ FROM ${RUNTIME_IMAGE}
 WORKDIR /spoke
 COPY --from=builder /spoke/build build
 COPY --from=builder /spoke/node_modules node_modules
+COPY --from=builder /spoke/migrations migrations
+COPY --from=builder /spoke/knexfile.env.js knexfile.env.js
 COPY --from=builder /spoke/package.json /spoke/yarn.lock ./
 ENV NODE_ENV=production \
     PORT=3000 \
