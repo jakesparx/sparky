@@ -96,7 +96,7 @@ class Home extends React.Component {
     return (
       <div>
         <div className={css(styles.header)}>
-          Spoke is a new way to run campaigns using text messaging.
+          SPARK conversations that create winning campaigns.
         </div>
         <div>
           <Link id="login" href="/login" onClick={this.handleOrgInviteClick}>
@@ -112,7 +112,7 @@ class Home extends React.Component {
       <div className={css(styles.container)}>
         <div className={css(styles.logoDiv)}>
           <img
-            src="https://s3-us-west-1.amazonaws.com/spoke-public/spoke_logo.svg"
+            src="https://jakesparx.github.io/spark-kit/spark_logo_blue_external.svg"
             className={css(styles.logoImg)}
           />
         </div>
