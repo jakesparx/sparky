@@ -435,9 +435,7 @@ export class UserEditBase extends React.Component {
         </div>
         <Card style={{ marginTop: "50px", maxWidth: "256px" }}>
           <CardContent style={{ fontSize: "90%" }}>
-            Spoke is developed and maintained by people committed to fighting
-            oppressive systems and structures, including economic injustice,
-            racism, patriarchy, and militarism.
+            Spark Away
           </CardContent>
         </Card>
       </div>
