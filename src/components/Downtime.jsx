@@ -10,7 +10,7 @@ class Downtime extends React.Component {
       <div className={css(styles.container)}>
         <div className={css(styles.logoDiv)}>
           <img
-            src="https://s3-us-west-1.amazonaws.com/spoke-public/spoke_logo.svg?downtime"
+            src="https://jakesparx.github.io/spark-kit/spark_logo_blue_external.svg?downtime"
             className={css(styles.logoImg)}
           />
         </div>

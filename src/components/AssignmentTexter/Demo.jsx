@@ -481,7 +481,7 @@ export const tests = testName => {
               {
                 type: "image/png",
                 url:
-                  "https://s3-us-west-1.amazonaws.com/spoke-public/spoke_logo.svg?demo"
+                  "https://jakesparx.github.io/spark-kit/spark_logo_blue_external.svg?demo"
               }
             ]
           },

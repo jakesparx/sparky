@@ -82,7 +82,7 @@ export default function renderIndex(html, css, assetMap) {
     </style>
     <style data-aphrodite>${css.content}</style>
     ${rollbarScript}
-    <link rel="icon" href="https://s3-us-west-1.amazonaws.com/spoke-public/spoke_logo.svg">
+    <link rel="icon" href="https://jakesparx.github.io/spark-kit/spark_logo_blue_external.svg">
   </head>
   <body>
     <div id="mount">${html}</div>
