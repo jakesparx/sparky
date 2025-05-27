@@ -10,16 +10,16 @@ const FAQs = [
     answer:
       "Please contact your account administrator or Text Team Manager to reset your password."
   },
-  {
-    question: "Does Spoke use my personal phone number to text people?",
+{
+    question: "Does Spark use my personal phone number to text people?",
     answer:
-      "No - We purchase phone numbers and connect them to the application using a service called Twilio. The " +
-      "texts you send use those purchased phone numbers."
-  },
+      "No - Spark uses its own dedicated phone numbers for all text messaging. " +
+      "Your personal number is never visible to recipients."
+}
   {
-    question: "Is Spoke available as an Android/iPhone app?",
+    question: "Is Spark available as an Android/iPhone app?",
     answer:
-      "Spoke is a web-based program you can access from any web browser on your computer, tablet or mobile " +
+      "Spark is a web-based program you can access from any web browser on your computer, tablet or mobile " +
       "device. No app needed!"
   }
 ];
