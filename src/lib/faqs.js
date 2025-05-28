@@ -15,7 +15,7 @@ const FAQs = [
     answer:
       "No - Spark uses its own dedicated phone numbers for all text messaging. " +
       "Your personal number is never visible to recipients."
-}
+},
   {
     question: "Is Spark available as an Android/iPhone app?",
     answer:
